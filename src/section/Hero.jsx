@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="flex items-center py-36 container-lg min-h-[75vh] lg:min-h-[auto]">
       <div className="row">
-        <div className="col w-6/12 md:w-full">
+        <div className="col w-full md:w-6/12">
           <h1 className="text-4xl font-bold leading-[50px]">
             <span className="text-primary">Qube</span> partners with
             high-potential blockchain projects.
