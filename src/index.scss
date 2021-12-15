@@ -1,7 +1,9 @@
+@tailwind base;
 @import "./style.css";
 
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 @import "./App.scss";
 
-@import "./fluid-utilities.min.css";
+@tailwind components;
+@tailwind utilities;
