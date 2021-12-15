@@ -10,7 +10,7 @@ export default function Work() {
     <section className="mt-24 overflow-x-hidden">
       <div className="container-lg relative">
         <img
-          className="bg-icons transform translate-x-2/4"
+          className="absolute top-0 right-0 -z-10 w-96 transform translate-x-2/4"
           src={workbg}
           alt=""
         />
