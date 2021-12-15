@@ -12,6 +12,9 @@ module.exports = {
           dark: "#02293e",
         },
       },
+      fontFamily: {
+        Montserrat: ["Montserrat"],
+      },
       maxWidth: {
         "90%": "90%",
       },
