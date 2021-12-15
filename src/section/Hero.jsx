@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section class="hero-wrapper ">
+    <section class="hero-wrapper h-min-75vh flex align-middle">
       <div class="container">
         <div class="banner-wrapper">
           <div class="row">
