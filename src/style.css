@@ -118,15 +118,6 @@
 }
 /* ---------------------------------------------------------------------------------------------------------------ice-cubes */
 
-#navbar {
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1110px !important;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
 #navbar a {
   float: left;
   display: block;
@@ -166,7 +157,6 @@ canvas {
   height: 130%;
   /* z-index: -10; */
   /* background-color: #b61924; */
-  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -405,14 +395,6 @@ canvas {
 }
 /* --------------------------------------------------------------------------particles-------------- */
 
-.sticky {
-  position: fixed;
-  top: 10;
-  z-index: 999;
-  width: 100%;
-  border: 1px solid red;
-}
-
 .sticky + .content {
   padding-top: 60px;
 }
@@ -495,7 +477,6 @@ body {
   top: 90%;
   left: 70%;
   perspective: 1500px;
-  z-index: 999;
 }
 
 .cube1 {
@@ -579,7 +560,6 @@ body {
   top: 40%;
   left: 30%;
   perspective: 1500px;
-  z-index: 999;
 }
 @keyframes rotate {
   0% {
@@ -660,7 +640,6 @@ body {
   top: 110%;
   left: 30%;
   perspective: 1500px;
-  z-index: 999;
 }
 .cube3 {
   position: relative;
@@ -850,32 +829,11 @@ body {
 }
 .staking-wrapper {
   position: relative;
-  /* height: 800px; */
   padding-top: 190px;
 }
 .work-wrapper {
   position: relative;
-  /* height: 800px; */
-  padding-top: 170px;
-  /*  background-image: url(../assets/dd.png);
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
-/* .work-with-bg {
-    width: 7.7rem;
-    height: 7.7rem;
-    background-image: url('../assets/');
-    /* background-colorgb(8,, 7, 7)FFF; */
-/* opacity: 0.1; */
-/* position: absolute; */
-/* right: 7rem; */
-/* bottom: 7rem; */
-/* right: 0; */
-/* background-repeat: no-repeat;
-
-} */
 
 .work-heading {
   margin: 1px 12px;
@@ -884,8 +842,6 @@ body {
   font-size: 2.875rem;
   font-family: Montserrat-bold;
   color: #1092b2;
-}
-.work-wrapper {
 }
 .card {
   border: 0 solid rgba(255, 255, 255, 0.125) !important;
