@@ -65,7 +65,7 @@
   /* display: flex;
   align-items: center;
   justify-content: center; */
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
   font-size: 2rem;
   /* transition: transform 500ms; */
 }
@@ -383,13 +383,13 @@ body {
 }
 
 .banner-inner-text h2 {
-  font-family: Montserrat-bold;
+  /* font-family: Montserrat-bold; */
   width: 90%;
   line-height: 50px;
   font-size: 2.125rem;
 }
 .banner-inner-text p {
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   width: 97%;
   color: #707070;
   /* font-size: 12px; */
@@ -399,7 +399,7 @@ body {
 }
 .banner-inner-text h2 span {
   color: #1092b2;
-  font-family: Montserrat-bold;
+  /* font-family: Montserrat-bold; */
 }
 
 /* --------------------------------------------------------------------------------------------------cubes-csss */
@@ -643,7 +643,7 @@ body {
 .banner-btn {
   font-size: 1rem;
   margin-top: 12px;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   background-color: #1092b2;
   color: rgb(250, 248, 248);
   padding: 12px 30px;
@@ -655,15 +655,6 @@ body {
   margin-top: 12px;
 }
 
-.main-content1 {
-  background: rgba(236, 239, 244, 0.82);
-  border-radius: 16px;
-
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(236, 239, 244, 0.3);
-  padding-bottom: 120px;
-}
 .testing {
   height: 130px;
 }
@@ -700,7 +691,7 @@ body {
 }
 .work-heading p {
   width: 70%;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   margin-left: auto;
   margin-right: auto;
   /* margin-bottom: 40px; */
@@ -709,7 +700,7 @@ body {
 }
 .staking-heading p {
   width: 70%;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
@@ -718,7 +709,7 @@ body {
 }
 .staking-heading h1 {
   font-size: 2.875rem;
-  font-family: Montserrat-bold;
+  /* font-family: Montserrat-bold; */
   color: #1092b2;
   margin-bottom: 24px;
 }
@@ -762,56 +753,29 @@ body {
   position: relative;
   padding-top: 190px;
 }
-.work-wrapper {
-  position: relative;
-}
 
 .work-heading {
   margin: 1px 12px;
 }
 .work-heading h1 {
   font-size: 2.875rem;
-  font-family: Montserrat-bold;
+  /* font-family: Montserrat-bold; */
   color: #1092b2;
-}
-.card {
-  border: 0 solid rgba(255, 255, 255, 0.125) !important;
-}
-.work-wrappe {
-  padding-top: 130px;
-  padding-bottom: 130px;
-}
-
-.card .card-img-top {
-  width: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.card .card-custom-top1 {
-  width: 190px;
-}
-.card .card-custom-top3 {
-  width: 190px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-.card-group-wrapper {
-  padding-top: 70px;
 }
 
 .card-title-text1 {
   color: #1092b2;
   font-size: 1.375rem;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .card-title-text2 {
   color: #fe7d1e;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   font-size: 1.375rem;
 }
 .card-title-text3 {
   color: #1092b2;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   font-size: 1.375rem;
 }
 .card-1 {
@@ -825,7 +789,7 @@ body {
 }
 .card-inner-text {
   font-size: 0.8rem;
-  font-family: Montserrat-regular;
+  /* font-family: Montserrat-regular; */
   color: #02293e;
 }
 .stake-wrapper {
@@ -834,11 +798,11 @@ body {
 }
 .tabs-body-text h5 {
   font-size: 2rem;
-  font-family: Montserrat-bold;
+  /* font-family: Montserrat-bold; */
 }
 .tabs-body-text {
   font-size: 1rem;
-  font-family: Montserrat-regular;
+  /* font-family: Montserrat-regular; */
 }
 .card-2 .btn-stake:hover {
   text-decoration: none;
@@ -852,7 +816,7 @@ body {
   border: none;
   padding: 12px 18px;
   font-size: 1rem;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .card-2 .media img {
   border-radius: 12px;
@@ -881,14 +845,14 @@ body {
   border-radius: 6px;
   border: none;
   padding: 12px 50px;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   margin: 10px 0;
 }
 
 /* ----------------------footer-css----------------------- */
 .heading-footer {
   color: #1092b2;
-  font-family: Montserrat-bold;
+  /* font-family: Montserrat-bold; */
   font-size: 3.375rem;
 }
 ul {
@@ -943,28 +907,28 @@ ul {
   font-size: 0.68rem;
   color: #02293e;
   line-height: 20px;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .footer-texts p span {
   margin-bottom: 14px;
   font-size: 0.975rem;
   color: #02293e;
   line-height: 20px;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .footer-texts p {
   margin-bottom: 14px;
   font-size: 0.67rem;
   color: #02293e;
   line-height: 20px;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .footer-social-icon span {
   color: #fff;
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   margin-bottom: 20px;
 }
 .footer-social-icon a {
@@ -995,7 +959,7 @@ ul {
   /* margin-bottom: 10px; */
   margin-top: 10px;
   position: relative;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .footer-widget-heading h3::before {
   content: "";
@@ -1021,7 +985,7 @@ ul {
   color: #02293e;
   text-transform: capitalize;
   font-size: 0.7rem;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .subscribe-form {
   position: relative;
@@ -1098,7 +1062,7 @@ ul {
 
   text-transform: capitalize;
   font-size: 12px;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .send-form textarea::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -1108,7 +1072,7 @@ ul {
 
   text-transform: capitalize;
   font-size: 10px !important;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .send-form textarea {
   padding: 8px 18px;
@@ -1126,7 +1090,7 @@ ul {
 }
 .heading-footer {
   color: #1092b2;
-  font-family: Montserrat-bold;
+  /* font-family: Montserrat-bold; */
   font-size: 36px;
 }
 .inner-text {
@@ -1156,12 +1120,12 @@ ul {
   margin-left: auto;
   margin-right: auto;
   color: #02293e;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   font-size: 13px;
 }
 
 .accordion .card-header:after {
-  font-family: "FontAwesome";
+  /* font-family: "FontAwesome"; */
   content: "\f107";
   float: right;
   color: #1092b2;
@@ -1176,7 +1140,7 @@ i {
   float: right;
 }
 .accordion .card-header.collapsed:after {
-  font-family: "FontAwesome";
+  /* font-family: "FontAwesome"; */
   font-weight: 900 !important;
   content: "\f105";
   font-size: 14pt;
@@ -1206,7 +1170,7 @@ i {
 }
 .card-header a {
   color: #02293e;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
   font-size: 1rem;
 }
 .staking-btn {
@@ -1219,14 +1183,14 @@ i {
   margin-left: auto;
   margin-right: auto;
   margin-top: 32px;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 /* ----------------------skaking-css----------------------- */
 /* ----------------------invest-css----------------------- */
 .invest-title-text {
   color: #1092b2;
   font-size: 1.315rem;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 .btn-view:hover {
   text-decoration: none;
@@ -1243,7 +1207,7 @@ i {
   margin-left: auto;
   margin-right: auto;
   margin-top: 32px;
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
 }
 
 /* -------------------------------------------------------------------------------------------------animation cubes------------------------------- */
@@ -1483,11 +1447,8 @@ body [class*="cube"] {
   }
   .heading-footer {
     color: #1092b2;
-    font-family: Montserrat-bold;
+    /* font-family: Montserrat-bold; */
     font-size: 22px;
-  }
-  .card-group-wrapper {
-    padding-top: 0;
   }
   .card-header {
     padding: 0.75rem 1.05rem;
@@ -1553,11 +1514,8 @@ body [class*="cube"] {
   }
   .heading-footer {
     color: #1092b2;
-    font-family: Montserrat-bold;
+    /* font-family: Montserrat-bold; */
     font-size: 22px;
-  }
-  .card-group-wrapper {
-    padding-top: 0;
   }
 }
 
@@ -1596,7 +1554,7 @@ body [class*="cube"] {
   }
   .card-inner-text {
     font-size: 0.9rem;
-    font-family: Montserrat-regular;
+    /* font-family: Montserrat-regular; */
     color: rgb(2, 41, 62);
   }
   #navbar a {
