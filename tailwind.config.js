@@ -18,12 +18,6 @@ module.exports = {
       maxWidth: {
         "90%": "90%",
       },
-      minHeight: {
-        "25vh": "25vh",
-        "50vh": "50vh",
-        "75vh": "75vh",
-        "100vh": "100vh",
-      },
       minWidth: {
         dropdown: "150px",
       },

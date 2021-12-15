@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="flex items-center min-h-75vh container-lg">
+    <section className="flex items-center py-36 container-lg min-h-[75vh] lg:min-h-[auto]">
       <div className="row">
         <div className="col w-6/12 md:w-full">
           <h1 className="text-4xl font-bold leading-[50px]">
