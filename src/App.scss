@@ -1,3 +1,7 @@
+header {
+ transition: background .35s ease-in-out;
+}
+
 .btn.is-primary {
   font-family: "Montserrat-regular", sans-serif;
   @apply bg-primary text-white py-2 px-6;
