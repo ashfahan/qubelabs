@@ -27,7 +27,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <Navbar className="container sticky-top" expand="xl" light id="navbar">
+    <Navbar className="container sticky-top" expand="lg" light id="navbar">
       <NavbarBrand href="/">
         <img src={logo} alt="" />
       </NavbarBrand>
