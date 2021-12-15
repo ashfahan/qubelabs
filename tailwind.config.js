@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#76b6b0",
+        primary: {
+          light: "#81c1e1",
+          DEFAULT: "#1092b2",
+          dark: "#02293e",
+        },
       },
       maxWidth: {
         "90%": "90%",
@@ -26,4 +30,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  important: true,
 };
