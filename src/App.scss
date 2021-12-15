@@ -1,5 +1,9 @@
 header {
- transition: background .35s ease-in-out;
+  transition: background 0.35s ease-in-out;
+}
+
+[class*=" w-"] {
+  flex: none;
 }
 
 .btn.is-primary {
