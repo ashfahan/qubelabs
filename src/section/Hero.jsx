@@ -2,61 +2,51 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section class="hero-wrapper h-min-75vh flex align-middle">
-      <div class="container">
-        <div class="banner-wrapper">
-          <div class="row">
-            <div class="col-sm-6 col-sm-6 col-lg-6 col-xl-6 ">
-              <div data-animate-in="up" class="banner-inner-text reveal">
-                <h2>
-                  <span>Qube</span> partners with high-potential blockchain
-                  projects.
-                </h2>
-                <p>
-                  Professional investors, blockchain strategists and
-                  social-media influencers, investing in a decentralized future.
-                </p>
-                <div>
-                  <a href="#" class=" banner-btn">
-                    Learn more
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-6 col-xl-6">
-              <div class="container1">
-                <div class="cube1">
-                  <div class="front" />
-                  <div class="left" />
-                  <div class="right" />
-                  <div class="back" />
-                  <div class="top" />
-                  <div class="bottom" />
-                </div>
-              </div>
-              <div class="container2">
-                <div class="cube2">
-                  <div class="front2" />
-                  <div class="left2" />
-                  <div class="right2" />
-                  <div class="back2" />
-                  <div class="top2" />
-                  <div class="bottom2" />
-                </div>
-              </div>
-              <div class="container3">
-                <div class="cube3">
-                  <div class="front3" />
-                  <div class="left3" />
-                  <div class="right3" />
-                  <div class="back3" />
-                  <div class="top3" />
-                  <div class="bottom3" />
-                </div>
-              </div>
-              <div id="particles-js" />
+    <section className="flex items-center min-h-75vh container-lg">
+      <div className="row">
+        <div className="col w-6/12 md:w-full">
+          <h1 className="text-4xl font-bold leading-[50px]">
+            <span className="text-primary">Qube</span> partners with
+            high-potential blockchain projects.
+          </h1>
+          <p className="mt-6 text-sm">
+            Professional investors, blockchain strategists and social-media
+            influencers, investing in a decentralized future.
+          </p>
+          <button className="btn is-primary mt-4">Learn more</button>
+        </div>
+        <div className="col w-6/12 hidden md:block">
+          <div className="container1">
+            <div className="cube1">
+              <div className="front" />
+              <div className="left" />
+              <div className="right" />
+              <div className="back" />
+              <div className="top" />
+              <div className="bottom" />
             </div>
           </div>
+          <div className="container2">
+            <div className="cube2">
+              <div className="front2" />
+              <div className="left2" />
+              <div className="right2" />
+              <div className="back2" />
+              <div className="top2" />
+              <div className="bottom2" />
+            </div>
+          </div>
+          <div className="container3">
+            <div className="cube3">
+              <div className="front3" />
+              <div className="left3" />
+              <div className="right3" />
+              <div className="back3" />
+              <div className="top3" />
+              <div className="bottom3" />
+            </div>
+          </div>
+          <div id="particles-js" />
         </div>
       </div>
     </section>
