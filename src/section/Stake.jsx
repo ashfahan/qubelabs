@@ -17,6 +17,7 @@ export default function Stake() {
         <img
           className="absolute top-0 left-10 -z-10 w-96 transform -translate-x-2/4"
           src={boxs}
+          alt="..."
         />
 
         <div className="container-lg pt-36">
@@ -24,8 +25,8 @@ export default function Stake() {
             <div className="text-center">
               <h5 className="text-5xl font-bold text-primary">Stake with us</h5>
               <p className="text-primary-dark font-medium mt-6 mb-12">
-                Earn passive income in crypto by delegating your idle tokens. We
-                contribute to secure the following blockchains.
+                Earn passive income in crypto by delegating your idle tokens. We contribute to
+                secure the following blockchains.
               </p>
             </div>
 
@@ -34,7 +35,7 @@ export default function Stake() {
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
-                      <img src={car1} />
+                      <img alt="..." src={car1} />
                     </div>
                     <div className="col px-2">
                       <div>Fantom (FTM)</div>
@@ -50,7 +51,7 @@ export default function Stake() {
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
-                      <img src={car2} />
+                      <img alt="..." src={car2} />
                     </div>
                     <div className="col px-2">
                       <div>Fantom (FTM)</div>
@@ -66,7 +67,7 @@ export default function Stake() {
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
-                      <img src={car3} />
+                      <img alt="..." src={car3} />
                     </div>
                     <div className="col px-2">
                       <div>Fantom (FTM)</div>
@@ -82,7 +83,7 @@ export default function Stake() {
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
-                      <img src={car4} />
+                      <img alt="..." src={car4} />
                     </div>
                     <div className="col px-2">
                       <div>Fantom (FTM)</div>
@@ -97,23 +98,7 @@ export default function Stake() {
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
-                      <img src={car5} />
-                    </div>
-                    <div className="col px-2">
-                      <div>Fantom (FTM)</div>
-                      <div className="font-bold text-3xl">15.00%</div>
-                    </div>
-                  </div>
-
-                  <button className="btn is-primary w-full mt-2">Stake</button>
-                </div>
-              </div>
-
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
-                <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
-                      <img src={car6} />
+                      <img alt="..." src={car5} />
                     </div>
                     <div className="col px-2">
                       <div>Fantom (FTM)</div>
@@ -129,7 +114,7 @@ export default function Stake() {
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
-                      <img src={car7} />
+                      <img alt="..." src={car6} />
                     </div>
                     <div className="col px-2">
                       <div>Fantom (FTM)</div>
@@ -145,7 +130,23 @@ export default function Stake() {
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
-                      <img src={car8} />
+                      <img alt="..." src={car7} />
+                    </div>
+                    <div className="col px-2">
+                      <div>Fantom (FTM)</div>
+                      <div className="font-bold text-3xl">15.00%</div>
+                    </div>
+                  </div>
+
+                  <button className="btn is-primary w-full mt-2">Stake</button>
+                </div>
+              </div>
+
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
+                <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
+                  <div className="row no-gutters">
+                    <div className="col w-14 bg-white rounded-lg">
+                      <img alt="..." src={car8} />
                     </div>
                     <div className="col px-2">
                       <div>Fantom (FTM)</div>

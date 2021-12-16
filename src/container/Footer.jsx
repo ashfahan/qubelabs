@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="row">
-        <div className="col w-full md:w-full lg:w-3/12 md:w-3/12">
+        <div className="col w-full lg:w-3/12 md:w-3/12">
           <a href="/" className="w-full max-w-[150px] inline-block">
             <img src={logo} alt="logo" />
           </a>
@@ -58,13 +58,13 @@ export default function Footer() {
             in a decentralized future.
           </p>
         </div>
-        <div className="col w-full md:w-full lg:w-3/12 md:w-3/12">
+        <div className="col w-full  lg:w-3/12 md:w-3/12">
           <div className="text-sm font-bold md:font-medium mt-6">Navigation</div>
           <ul className="mt-4">
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="#"
+                href="/"
               >
                 Home
               </a>
@@ -72,7 +72,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="#"
+                href="/"
               >
                 Features
               </a>
@@ -80,7 +80,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="#"
+                href="/"
               >
                 Staking
               </a>
@@ -88,7 +88,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="#"
+                href="/"
               >
                 Portfolio
               </a>
@@ -96,14 +96,14 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="#"
+                href="/"
               >
                 FAQs
               </a>
             </li>
           </ul>
         </div>
-        <div className="col w-full md:w-full lg:w-3/12 md:w-2/12">
+        <div className="col w-full lg:w-3/12 md:w-2/12">
           <div className="text-sm font-bold md:font-medium mt-6">Contacts</div>
           <p className="mt-4 text-xs text-primary-dark no-underline inline-block leading-5">
             <div> One Ferry Building, Suite 255.</div>
@@ -111,7 +111,7 @@ export default function Footer() {
             <div className="text-base">+1 (415) 677-5340</div>
           </p>
         </div>
-        <div className="col w-full md:w-full lg:w-3/12 md:w-4/12">
+        <div className="col w-full lg:w-3/12 md:w-4/12">
           <div className="text-sm font-bold md:font-medium mt-6">Subscribe to our newsletter</div>
 
           <form action="#">

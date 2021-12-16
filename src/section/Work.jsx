@@ -26,12 +26,12 @@ export default function Work() {
               <div className="col w-full md:w-4/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
-                    <img src={asthands} />
+                    <img alt="..."src={asthands} />
                   </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-primary">
                     Strategic partnership
                   </h5>
-                  <p className="card-text card-inner-text">
+                  <p className="card-text text-xs">
                     Qube partners with promising blockchain projects, assisting them towards
                     successful ICOs, through funding, advisory services and community awareness
                     generation.
@@ -41,12 +41,12 @@ export default function Work() {
               <div className="col w-full md:w-4/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
-                    <img src={astmessage} />
+                    <img alt="..."src={astmessage} />
                   </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-secondary">
                     Advisory services
                   </h5>
-                  <p className="card-text card-inner-text">
+                  <p className="card-text text-xs">
                     Through years of advising, Qube has accrued significant expertise in ICO
                     strategy, including: token metrics, token sale mechanism, token distribution,
                     exchange listings, and more.
@@ -56,10 +56,10 @@ export default function Work() {
               <div className="col w-full md:w-4/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
-                    <img src={astsettings} />
+                    <img alt="..."src={astsettings} />
                   </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-primary">Influencer Network</h5>
-                  <p className="card-text card-inner-text">
+                  <p className="card-text text-xs">
                     Qube has an extensive social-media influencer network that it utilizes to build
                     a community for its partner blockchain projects.
                   </p>

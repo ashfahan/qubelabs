@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, CardHeader, Collapse } from "reactstrap";
+import { Card, CardBody, Collapse } from "reactstrap";
 import PropTypes from "prop-types";
 
 export class Accordion extends React.Component {
@@ -13,7 +13,7 @@ export class Accordion extends React.Component {
 
   render() {
     return (
-      <div className="accordion" className={this.props.className}>
+      <div className="accordion this.props.className">
         {React.Children.map(this.props.children, (child, index) => {
           if (child.type !== AccordionItem) return null;
           return React.cloneElement(child, {
@@ -48,10 +48,7 @@ const AccordionItem = ({ children, isOpen, onClick, className }) => (
 
 const AccordionHeader = ({ children, onClick, className, isOpen }) => (
   <button
-    className={
-      "d-flex align-items-center " + className ??
-      "card-header btn shadow-none text-left"
-    }
+    className={"d-flex align-items-center " + className ?? "card-header btn shadow-none text-left"}
     onClick={onClick}
   >
     {children}
@@ -68,7 +65,10 @@ const AccordionHeader = ({ children, onClick, className, isOpen }) => (
       }}
     >
       <g>
-        <path className='fill-current' d="M9.994,14.324a1.657,1.657,0,0,0-.5-1.189L4.182,8,9.494,2.864A1.67,1.67,0,0,0,10,1.679,1.7,1.7,0,0,0,8.938.129,1.8,1.8,0,0,0,7.6.129a1.666,1.666,0,0,0-.556.364L.508,6.815a1.633,1.633,0,0,0,0,2.368l6.53,6.324a1.667,1.667,0,0,0,.556.364,1.8,1.8,0,0,0,1.338,0,1.667,1.667,0,0,0,.556-.364,1.647,1.647,0,0,0,.5-1.183" />
+        <path
+          className="fill-current"
+          d="M9.994,14.324a1.657,1.657,0,0,0-.5-1.189L4.182,8,9.494,2.864A1.67,1.67,0,0,0,10,1.679,1.7,1.7,0,0,0,8.938.129,1.8,1.8,0,0,0,7.6.129a1.666,1.666,0,0,0-.556.364L.508,6.815a1.633,1.633,0,0,0,0,2.368l6.53,6.324a1.667,1.667,0,0,0,.556.364,1.8,1.8,0,0,0,1.338,0,1.667,1.667,0,0,0,.556-.364,1.647,1.647,0,0,0,.5-1.183"
+        />
       </g>
     </svg>
   </button>
