@@ -7,10 +7,10 @@ import astsettings from "../assets/ast/settings.png";
 
 export default function Work() {
   return (
-    <section className="mt-24 overflow-x-hidden">
+    <section className="mt-24 overflow-x-clip">
       <div className="container-lg relative">
         <img
-          className="absolute top-0 right-0 -z-10 w-96 transform translate-x-2/4"
+          className="absolute top-0 right-10 -z-10 w-96 transform translate-x-2/4"
           src={workbg}
           alt=""
         />
@@ -26,7 +26,9 @@ export default function Work() {
             <div className="row">
               <div className="col">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
-                  <img src={asthands} className="max-w-[100px] mx-auto" />
+                  <div className="h-[100px] text-center flex items-center justify-center">
+                    <img src={asthands} />
+                  </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-primary">
                     Strategic partnership
                   </h5>
@@ -39,7 +41,9 @@ export default function Work() {
               </div>
               <div className="col">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
-                  <img src={astmessage} className="max-w-[100px] mx-auto" />
+                  <div className="h-[100px] text-center flex items-center justify-center">
+                    <img src={astmessage} />
+                  </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-[#FE7D1E]">
                     Advisory services
                   </h5>
@@ -53,7 +57,9 @@ export default function Work() {
               </div>
               <div className="col">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
-                  <img src={astsettings} className="max-w-[100px] mx-auto" />
+                  <div className="h-[100px] text-center flex items-center justify-center">
+                    <img src={astsettings} />
+                  </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-primary">
                     Influencer Network
                   </h5>

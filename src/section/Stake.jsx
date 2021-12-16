@@ -12,10 +12,10 @@ import car8 from "../assets/ast/car8.png";
 
 export default function Stake() {
   return (
-    <section className="mt-24 overflow-x-hidden">
+    <section className="mt-24 overflow-x-clip">
       <div className="container-lg relative">
         <img
-          className="absolute top-0 left-0 -z-10 w-96 transform -translate-x-2/4"
+          className="absolute top-0 left-10 -z-10 w-96 transform -translate-x-2/4"
           src={boxs}
         />
 
@@ -157,8 +157,8 @@ export default function Stake() {
                 </div>
               </div>
             </div>
-            <div className="work-heading mt-4 text-center">
-              <div className="btn-view"> View More</div>
+            <div className="mt-4 text-center">
+              <div className="btn is-primary px-16">View More</div>
             </div>
           </div>
         </div>
