@@ -25,6 +25,11 @@ header {
     @apply py-3 px-10;
   }
 
+  &.is-expanded {
+    @apply px-16;
+  }
+}
+
 .form-control {
   padding: 8px 18px;
 

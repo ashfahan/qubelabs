@@ -75,7 +75,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="mt-4 text-center">
-              <div className="btn is-primary px-16">View More</div>
+              <div className="btn is-primary is-expanded">View More</div>
             </div>
           </div>
         </div>
