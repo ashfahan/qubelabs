@@ -998,42 +998,7 @@ ul {
 .footer-content {
   background-color: #eceff4;
 }
-.send-form input {
-  padding: 8px 18px;
 
-  background: #f2f4f8;
-  border: 1px solid #f2f4f8;
-  color: #fff;
-  margin-top: 12px;
-}
-.send-form input::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #878787;
-  font-size: 10px !important;
-  opacity: 1; /* Firefox */
-
-  text-transform: capitalize;
-  font-size: 12px;
-  /* font-family: Montserrat-Medium; */
-}
-.send-form textarea::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #878787;
-  font-size: 12px;
-  opacity: 1; /* Firefox */
-
-  text-transform: capitalize;
-  font-size: 10px !important;
-  /* font-family: Montserrat-Medium; */
-}
-.send-form textarea {
-  padding: 8px 18px;
-
-  background: #f2f4f8;
-  border: 1px solid #f2f4f8;
-  color: #fff;
-  margin-top: 12px;
-}
 .send-form {
   /* width: 90%; */
 }
