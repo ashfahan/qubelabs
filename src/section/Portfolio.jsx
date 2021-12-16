@@ -15,7 +15,7 @@ export default function Portfolio() {
         />
 
         <div className="container-lg pt-36">
-          <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm p-16">
+          <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm px-4 pb-4 pt-16 md:p-16">
             <div className="text-center">
               <h5 className="text-5xl font-bold text-primary">
                 Invest with us
@@ -25,8 +25,9 @@ export default function Portfolio() {
               </p>
             </div>
 
-            <div className="row">
-              <div className="col w-4/12 p-1">
+            <div className="row no-gutters">
+              <div className="col w-full md:w-4/12 py-1 md:p-1">
+
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
                     <img src={bounty} />
@@ -42,7 +43,8 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-              <div className="col w-4/12 p-1">
+              <div className="col w-full md:w-4/12 py-1 md:p-1">
+
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
                     <img src={bunty} />
@@ -58,7 +60,8 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-              <div className="col w-4/12 p-1">
+              <div className="col w-full md:w-4/12 py-1 md:p-1">
+
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
                     <img src={electrifyasia} />

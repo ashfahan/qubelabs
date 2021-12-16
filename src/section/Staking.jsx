@@ -11,7 +11,7 @@ export default function Staking() {
         /> */}
 
         <div className="container-lg pt-36">
-          <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm p-16">
+          <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm px-4 pb-4 pt-16 md:p-16">
             <div className="text-center">
               <h5 className="text-5xl font-bold text-primary">What is Staking?</h5>
               <p className="text-primary-dark font-medium mt-6 mb-12">
@@ -26,7 +26,7 @@ export default function Staking() {
                 eventKey="0"
                 className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
               >
-                <Accordion.Header className="py-3 px-5 text-left">
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   What is proof of stake in blockchain?
                 </Accordion.Header>
                 <Accordion.Body>
@@ -45,7 +45,7 @@ export default function Staking() {
                 eventKey="1"
                 className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
               >
-                <Accordion.Header className="py-3 px-5 text-left">
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   What does qube.vc staking investment platform do?
                 </Accordion.Header>
                 <Accordion.Body>
@@ -64,7 +64,7 @@ export default function Staking() {
                 eventKey="2"
                 className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
               >
-                <Accordion.Header className="py-3 px-5 text-left">
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   What are minimum and maximum deposit?
                 </Accordion.Header>
                 <Accordion.Body>
@@ -80,7 +80,7 @@ export default function Staking() {
                 eventKey="2"
                 className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
               >
-                <Accordion.Header className="py-3 px-5 text-left">
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   How much does it cost to stake with qube.vc?
                 </Accordion.Header>
                 <Accordion.Body>
@@ -96,7 +96,7 @@ export default function Staking() {
                 eventKey="2"
                 className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
               >
-                <Accordion.Header className="py-3 px-5 text-left">
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   How do you keep my funds safe?
                 </Accordion.Header>
                 <Accordion.Body>

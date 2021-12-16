@@ -20,7 +20,7 @@ export default function Stake() {
         />
 
         <div className="container-lg pt-36">
-          <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm p-16">
+          <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm px-4 pb-4 pt-16 md:p-16">
             <div className="text-center">
               <h5 className="text-5xl font-bold text-primary">Stake with us</h5>
               <p className="text-primary-dark font-medium mt-6 mb-12">
@@ -29,8 +29,8 @@ export default function Stake() {
               </p>
             </div>
 
-            <div className="row">
-              <div className="col w-3/12 p-1">
+            <div className="row no-gutters">
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
@@ -46,7 +46,7 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-3/12 p-1">
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
@@ -62,7 +62,7 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-3/12 p-1">
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
@@ -78,7 +78,7 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-3/12 p-1">
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
@@ -93,7 +93,7 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-3/12 p-1">
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
@@ -109,7 +109,7 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-3/12 p-1">
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
@@ -125,7 +125,7 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-3/12 p-1">
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
@@ -141,7 +141,7 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-3/12 p-1">
+              <div className="col w-full md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 transition-colors border-2">
                   <div className="row no-gutters">
                     <div className="col w-14 bg-white rounded-lg">
