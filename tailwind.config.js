@@ -11,6 +11,9 @@ module.exports = {
           DEFAULT: "#1092b2",
           dark: "#02293e",
         },
+        secondary: {
+          DEFAULT: "#FE7D1E",
+        },
       },
       fontFamily: {
         Montserrat: ["Montserrat"],

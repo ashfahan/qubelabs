@@ -44,7 +44,7 @@ export default function Work() {
                   <div className="h-[100px] text-center flex items-center justify-center">
                     <img src={astmessage} />
                   </div>
-                  <h5 className="text-xl mt-4 mb-3 font-medium text-[#FE7D1E]">
+                  <h5 className="text-xl mt-4 mb-3 font-medium text-secondary">
                     Advisory services
                   </h5>
                   <p className="card-text card-inner-text">
