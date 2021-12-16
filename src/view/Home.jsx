@@ -12,7 +12,7 @@ export default function Home() {
       <Work />
       <Stake />
       <Portfolio />
-      {/* <Staking /> */}
+      <Staking />
     </div>
   );
 }
