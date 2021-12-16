@@ -22,13 +22,7 @@
   -webkit-transform: rotate(0deg);
   transform: rotate(90deg);
 }
-.containers {
-  position: relative;
-}
-.card-header {
-  /* display: flex; */
-  /* justify-content: space-between; */
-}
+
 /* ---------------------------------------------------------------------------------------------------------------Arrow - Icons - rotate */
 /* ---------------------------------------------------------------------------------------------------------------ice-cubes */
 @keyframes turn {
@@ -689,15 +683,6 @@ body {
   width: 350px;
   margin: 0;
 }
-.work-heading p {
-  width: 70%;
-  /* font-family: Montserrat-Medium; */
-  margin-left: auto;
-  margin-right: auto;
-  /* margin-bottom: 40px; */
-  color: #02293e;
-  font-size: 1rem;
-}
 .staking-heading p {
   width: 70%;
   /* font-family: Montserrat-Medium; */
@@ -754,39 +739,6 @@ body {
   padding-top: 190px;
 }
 
-.work-heading {
-  margin: 1px 12px;
-}
-.work-heading h1 {
-  font-size: 2.875rem;
-  /* font-family: Montserrat-bold; */
-  color: #1092b2;
-}
-
-.card-title-text1 {
-  color: #1092b2;
-  font-size: 1.375rem;
-  /* font-family: Montserrat-Medium; */
-}
-.card-title-text2 {
-  color: #fe7d1e;
-  /* font-family: Montserrat-Medium; */
-  font-size: 1.375rem;
-}
-.card-title-text3 {
-  color: #1092b2;
-  /* font-family: Montserrat-Medium; */
-  font-size: 1.375rem;
-}
-.card-1 {
-  border: 2px solid #d6dff6 !important;
-  box-shadow: 0 0 12px #00000015;
-  border-radius: 10px !important;
-  margin-right: 50px;
-  margin-left: 50px;
-  background-color: #f6f7f9 !important;
-  border-radius: 8px;
-}
 .card-inner-text {
   font-size: 0.8rem;
   /* font-family: Montserrat-regular; */
@@ -1124,54 +1076,9 @@ ul {
   font-size: 13px;
 }
 
-.accordion .card-header:after {
-  /* font-family: "FontAwesome"; */
-  content: "\f107";
-  float: right;
-  color: #1092b2;
-  /* margin-top: 2px; */
-  font-size: 20px;
-  /* font-size: 20px; */
-  /* font-weight: 900; */
-  transition: all 0.4s ease;
-}
 i {
   /* font-size: 23px !important; */
   float: right;
-}
-.accordion .card-header.collapsed:after {
-  /* font-family: "FontAwesome"; */
-  font-weight: 900 !important;
-  content: "\f105";
-  font-size: 14pt;
-  transition: all 0.4s ease;
-}
-.accordion {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.card-header {
-  margin-bottom: 112px;
-  background-color: #f6f7f9 !important;
-  border-radius: 10px !important;
-  border: 2px solid #d6dff6 !important;
-  box-shadow: 0 0 12px #00000015;
-}
-.accordion .card .card-header {
-  border-radius: 6px !important;
-  border: 1px solid #d6dff6;
-  background-color: #f6f7f9;
-  /* box-shadow: 10px 2px 0 #D6DFF6; */
-  margin-bottom: 11px !important;
-}
-.card {
-  /* background-color: unset !important; */
-}
-.card-header a {
-  color: #02293e;
-  /* font-family: Montserrat-Medium; */
-  font-size: 1rem;
 }
 .staking-btn {
   background-color: #1092b2;
@@ -1450,9 +1357,6 @@ body [class*="cube"] {
     /* font-family: Montserrat-bold; */
     font-size: 22px;
   }
-  .card-header {
-    padding: 0.75rem 1.05rem;
-  }
 }
 
 /* Landscape phone to portrait tablet */
@@ -1495,12 +1399,6 @@ body [class*="cube"] {
     width: 180px;
   }
 
-  .work-heading h1 {
-    font-size: 25px;
-  }
-  .work-heading p {
-    width: 90%;
-  }
   .accordion {
     width: 97%;
   }
