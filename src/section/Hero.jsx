@@ -4,7 +4,7 @@ import herovid from "../assets/herovid.mp4";
 
 export default function Hero() {
   return (
-    <section className="flex items-center py-20 container-lg min-h-[75vh] lg:min-h-[auto]">
+    <section className="flex items-center py-20 md:w-11/12 w-[95%] mx-auto min-h-[75vh] lg:min-h-[auto]">
       <div className="row items-center">
         <div className="col w-full md:w-6/12">
           <h1 className="text-4xl font-bold leading-[50px]">

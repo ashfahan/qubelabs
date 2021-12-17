@@ -4,7 +4,7 @@ import logo from "../assets/main-logo.svg";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-200 container-lg mt-24 rounded-t-lg px-14 pb-14 pt-20 font-medium">
+    <footer className="bg-slate-200 md:w-11/12 w-[95%] mx-auto mt-24 rounded-t-lg px-14 pb-14 pt-20 font-medium">
       <div className="row mb-4">
         <div className="col w-full md:w-6/12">
           <h4 className="text-primary text-4xl font-bold">Got something for us?</h4>

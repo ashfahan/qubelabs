@@ -8,13 +8,13 @@ import astsettings from "../assets/ast/settings.png";
 export default function Work() {
   return (
     <section className="mt-24 overflow-x-clip">
-      <div className="container-lg relative">
+      <div className="md:w-11/12 w-[95%] mx-auto relative">
         <img
           className="absolute top-0 right-10 -z-10 w-96 transform translate-x-2/4"
           src={workbg}
           alt=""
         />
-        <div className="container-lg pt-36">
+        <div className="pt-36">
           <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm px-4 pb-4 pt-16 md:p-16">
             <div className="text-center">
               <h5 className="text-5xl font-bold text-primary">Work with us</h5>
