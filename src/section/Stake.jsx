@@ -66,10 +66,10 @@ export default function Stake() {
             </div>
 
             <div className="row no-gutters">
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
+              <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
+                  <div className="row no-gutters justify-center">
+                    <div className="col w-14 flex items-center bg-white rounded-lg">
                       <img alt="..." src={car1} />
                     </div>
                     <div className="col px-2">
@@ -82,10 +82,10 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
+              <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
+                  <div className="row no-gutters justify-center">
+                    <div className="col w-14 flex items-center bg-white rounded-lg">
                       <img alt="..." src={car2} />
                     </div>
                     <div className="col px-2">
@@ -98,10 +98,10 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
+              <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
+                  <div className="row no-gutters justify-center">
+                    <div className="col w-14 flex items-center bg-white rounded-lg">
                       <img alt="..." src={car3} />
                     </div>
                     <div className="col px-2">
@@ -114,10 +114,10 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
+              <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
+                  <div className="row no-gutters justify-center">
+                    <div className="col w-14 flex items-center bg-white rounded-lg">
                       <img alt="..." src={car4} />
                     </div>
                     <div className="col px-2">
@@ -129,10 +129,10 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
+              <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
+                  <div className="row no-gutters justify-center">
+                    <div className="col w-14 flex items-center bg-white rounded-lg">
                       <img alt="..." src={car5} />
                     </div>
                     <div className="col px-2">
@@ -145,10 +145,10 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
+              <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
+                  <div className="row no-gutters justify-center">
+                    <div className="col w-14 flex items-center bg-white rounded-lg">
                       <img alt="..." src={car6} />
                     </div>
                     <div className="col px-2">
@@ -161,10 +161,10 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
+              <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
+                  <div className="row no-gutters justify-center">
+                    <div className="col w-14 flex items-center bg-white rounded-lg">
                       <img alt="..." src={car7} />
                     </div>
                     <div className="col px-2">
@@ -177,10 +177,10 @@ export default function Stake() {
                 </div>
               </div>
 
-              <div className="col w-full md:w-3/12 py-1 md:p-1">
+              <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
-                  <div className="row no-gutters">
-                    <div className="col w-14 bg-white rounded-lg">
+                  <div className="row no-gutters justify-center">
+                    <div className="col w-14 flex items-center bg-white rounded-lg">
                       <img alt="..." src={car8} />
                     </div>
                     <div className="col px-2">
