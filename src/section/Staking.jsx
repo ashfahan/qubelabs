@@ -24,7 +24,7 @@ export default function Staking() {
             <Accordion defaultActiveKey="0">
               <Accordion.Item
                 eventKey="0"
-                className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
               >
                 <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   What is proof of stake in blockchain?
@@ -43,7 +43,7 @@ export default function Staking() {
 
               <Accordion.Item
                 eventKey="1"
-                className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
               >
                 <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   What does qube.vc staking investment platform do?
@@ -62,7 +62,7 @@ export default function Staking() {
 
               <Accordion.Item
                 eventKey="2"
-                className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
               >
                 <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   What are minimum and maximum deposit?
@@ -78,7 +78,7 @@ export default function Staking() {
 
               <Accordion.Item
                 eventKey="2"
-                className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
               >
                 <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   How much does it cost to stake with qube.vc?
@@ -94,7 +94,7 @@ export default function Staking() {
 
               <Accordion.Item
                 eventKey="2"
-                className="border-2 border-blue-100 hover:border-blue-300 rounded-lg mb-2"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
               >
                 <Accordion.Header className="py-3 px-5 text-left font-semibold">
                   How do you keep my funds safe?
