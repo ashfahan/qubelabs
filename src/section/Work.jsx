@@ -10,7 +10,7 @@ export default function Work() {
     <section className="mt-24 overflow-x-clip">
       <div className="md:w-11/12 w-[95%] mx-auto relative">
         <img
-          className="absolute top-0 right-10 -z-10 w-96 transform translate-x-2/4"
+          className="work-transition absolute top-0 right-10 -z-10 w-96 transform"
           src={workbg}
           alt=""
         />
@@ -26,7 +26,7 @@ export default function Work() {
               <div className="col w-full md:w-4/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
-                    <img alt="..."src={asthands} />
+                    <img alt="..." src={asthands} />
                   </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-primary">
                     Strategic partnership
@@ -41,7 +41,7 @@ export default function Work() {
               <div className="col w-full md:w-4/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
-                    <img alt="..."src={astmessage} />
+                    <img alt="..." src={astmessage} />
                   </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-secondary">
                     Advisory services
@@ -56,7 +56,7 @@ export default function Work() {
               <div className="col w-full md:w-4/12 py-1 md:p-1">
                 <div className="card w-full h-full card-body text-center rounded-lg border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                   <div className="h-[100px] text-center flex items-center justify-center">
-                    <img alt="..."src={astsettings} />
+                    <img alt="..." src={astsettings} />
                   </div>
                   <h5 className="text-xl mt-4 mb-3 font-medium text-primary">Influencer Network</h5>
                   <p className="card-text text-xs">

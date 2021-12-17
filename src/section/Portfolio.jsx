@@ -1,5 +1,6 @@
 import React from "react";
 
+import fan from "../assets/spin-fan.png";
 import Group from "../assets/Group.png";
 import bounty from "../assets/ast/bounty.png";
 import bunty from "../assets/ast/bunty.png";
@@ -14,6 +15,9 @@ export default function Portfolio() {
           src={Group}
           alt="..."
         />
+        <div className="absolute top-0 right-10 -z-10 w-auto transform translate-x-2/4 translate-y-96">
+          <img className='animate-spin spin-fan' src={fan} alt="..." />
+        </div>
 
         <div className="pt-36">
           <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm px-4 pb-4 pt-16 md:p-16">

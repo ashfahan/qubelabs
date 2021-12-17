@@ -55,3 +55,48 @@ header {
     /* font-family: Montserrat-Medium; */
   }
 }
+
+@keyframes upanddown {
+  from {
+    transform: translate(50%, 25%);
+  }
+  to {
+    transform: translate(50%, -25%);
+  }
+}
+
+.work-transition {
+  animation: upanddown 4s ease-in-out alternate both infinite;
+}
+
+@keyframes test {
+  from {
+    transform: translate(8.117px, 69.798px);
+  }
+  to {
+    transform: translate(152.873px, 237.192px);
+  }
+}
+
+.arrow-transition {
+  position: relative;
+  display: inline-block;
+  animation: test 4s ease-in-out alternate both infinite;
+}
+
+.arrow-transition-2 {
+  animation-direction: alternate-reverse;
+}
+
+@keyframes test {
+  from {
+    transform: translate(8.117px, 69.798px);
+  }
+  to {
+    transform: translate(152.873px, 237.192px);
+  }
+}
+
+.animate-spin.spin-fan {
+  animation-duration: 60s !important;
+}
