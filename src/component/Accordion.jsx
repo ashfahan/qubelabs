@@ -31,7 +31,10 @@ Accordion.propTypes = {
 };
 
 const AccordionItem = ({ children, isOpen, onClick, className }) => (
-  <Card className={className}>
+  <div
+    style={{ wordWrap: "break-word" }}
+    className={`relative flex flex-col min-w-0 bg-white bg-clip-border ${className}`}
+  >
     {React.Children.map(children, (child) => {
       if (child.type === AccordionHeader) {
         return React.cloneElement(child, { onClick, isOpen });
@@ -43,7 +46,7 @@ const AccordionItem = ({ children, isOpen, onClick, className }) => (
 
       return null;
     })}
-  </Card>
+  </div>
 );
 
 const AccordionHeader = ({ children, onClick, className, isOpen }) => (
