@@ -106,9 +106,9 @@ export default function Footer() {
         <div className="col w-full lg:w-3/12 md:w-2/12">
           <div className="text-sm font-bold md:font-medium mt-6">Contacts</div>
           <p className="mt-4 text-xs text-primary-dark no-underline inline-block leading-5">
-            <div> One Ferry Building, Suite 255.</div>
-            <div> San Francisco, CA 94111</div>
-            <div className="text-base">+1 (415) 677-5340</div>
+            <span className='block'> One Ferry Building, Suite 255.</span>
+            <span className='block'> San Francisco, CA 94111</span>
+            <span className='block' className="text-base">+1 (415) 677-5340</span>
           </p>
         </div>
         <div className="col w-full lg:w-3/12 md:w-4/12">
