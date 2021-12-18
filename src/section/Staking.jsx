@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion } from "../component/Accordion";
-import ScrollReveal, { anim } from '../container/ScrollReveal';
+import ScrollReveal, { anim } from "../container/ScrollReveal";
 
 export default function Staking() {
   return (
@@ -27,101 +27,91 @@ export default function Staking() {
             </div>
 
             <Accordion defaultActiveKey="0">
-              <ScrollReveal config={anim.animate8}>
-                <Accordion.Item
-                  eventKey="0"
-                  className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
-                >
-                  <Accordion.Header className="py-3 px-5 text-left font-semibold">
-                    What is proof of stake in blockchain?
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                    cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                    you probably haven't heard of them accusamus labore sustainable VHS.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </ScrollReveal>
+              <Accordion.Item
+                eventKey="0"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
+              >
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
+                  What is proof of stake in blockchain?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                  richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                  brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                  sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                  craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                  heard of them accusamus labore sustainable VHS.
+                </Accordion.Body>
+              </Accordion.Item>
 
-              <ScrollReveal config={anim.animate8}>
-                <Accordion.Item
-                  eventKey="1"
-                  className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
-                >
-                  <Accordion.Header className="py-3 px-5 text-left font-semibold">
-                    What does qube.vc staking investment platform do?
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                    cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                    you probably haven't heard of them accusamus labore sustainable VHS.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </ScrollReveal>
+              <Accordion.Item
+                eventKey="1"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
+              >
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
+                  What does qube.vc staking investment platform do?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                  richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                  brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                  sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                  craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                  heard of them accusamus labore sustainable VHS.
+                </Accordion.Body>
+              </Accordion.Item>
 
-              <ScrollReveal config={anim.animate8}>
-                <Accordion.Item
-                  eventKey="2"
-                  className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
-                >
-                  <Accordion.Header className="py-3 px-5 text-left font-semibold">
-                    What are minimum and maximum deposit?
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et. samus labore sustainable VHS.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </ScrollReveal>
+              <Accordion.Item
+                eventKey="2"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
+              >
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
+                  What are minimum and maximum deposit?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                  richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                  brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et. samus labore sustainable VHS.
+                </Accordion.Body>
+              </Accordion.Item>
 
-              <ScrollReveal config={anim.animate8}>
-                <Accordion.Item
-                  eventKey="2"
-                  className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
-                >
-                  <Accordion.Header className="py-3 px-5 text-left font-semibold">
-                    How much does it cost to stake with qube.vc?
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et. samus labore sustainable VHS.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </ScrollReveal>
+              <Accordion.Item
+                eventKey="2"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
+              >
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
+                  How much does it cost to stake with qube.vc?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                  richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                  brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et. samus labore sustainable VHS.
+                </Accordion.Body>
+              </Accordion.Item>
 
-              <ScrollReveal config={anim.animate8}>
-                <Accordion.Item
-                  eventKey="2"
-                  className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
-                >
-                  <Accordion.Header className="py-3 px-5 text-left font-semibold">
-                    How do you keep my funds safe?
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                    shoreditch et. samus labore sustainable VHS.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </ScrollReveal>
+              <Accordion.Item
+                eventKey="2"
+                className="border-2 border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors rounded-lg mb-2"
+              >
+                <Accordion.Header className="py-3 px-5 text-left font-semibold">
+                  How do you keep my funds safe?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                  richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                  brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et. samus labore sustainable VHS.
+                </Accordion.Body>
+              </Accordion.Item>
             </Accordion>
           </div>
         </div>
