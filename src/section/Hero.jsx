@@ -1,6 +1,6 @@
 import React from "react";
 
-import herovid from "../assets/herovid.mp4";
+import herovid from "../assets/herovid.gif";
 import Particles from "react-tsparticles";
 import { anim, ScrollReveal } from "../container/ScrollReveal";
 
@@ -73,51 +73,51 @@ const particle = {
       },
     },
   },
-  interactivity: {
-    detect_on: "canvas",
-    events: {
-      onhover: {
-        enable: true,
-        mode: "grab",
-      },
-      onclick: {
-        enable: true,
-        mode: "push",
-      },
-      resize: true,
-    },
-    modes: {
-      grab: {
-        distance: 140,
-        line_linked: {
-          opacity: 1,
-        },
-      },
-      bubble: {
-        distance: 400,
-        size: 40,
-        duration: 2,
-        opacity: 8,
-        speed: 3,
-      },
-      repulse: {
-        distance: 200,
-        duration: 0.4,
-      },
-      push: {
-        particles_nb: 4,
-      },
-      remove: {
-        particles_nb: 2,
-      },
-    },
-  },
+  // interactivity: {
+  //   detect_on: "canvas",
+  //   events: {
+  //     onhover: {
+  //       enable: true,
+  //       mode: "grab",
+  //     },
+  //     onclick: {
+  //       enable: true,
+  //       mode: "push",
+  //     },
+  //     resize: true,
+  //   },
+  //   modes: {
+  //     grab: {
+  //       distance: 140,
+  //       line_linked: {
+  //         opacity: 1,
+  //       },
+  //     },
+  //     bubble: {
+  //       distance: 400,
+  //       size: 40,
+  //       duration: 2,
+  //       opacity: 8,
+  //       speed: 3,
+  //     },
+  //     repulse: {
+  //       distance: 200,
+  //       duration: 0.4,
+  //     },
+  //     push: {
+  //       particles_nb: 4,
+  //     },
+  //     remove: {
+  //       particles_nb: 2,
+  //     },
+  //   },
+  // },
   retina_detect: true,
 };
 
 export default function Hero() {
   return (
-    <section className="flex items-center py-20 md:w-11/12 w-[95%] mx-auto min-h-[75vh] lg:min-h-[auto]">
+    <section className="flex items-center py-8 md:w-11/12 w-[95%] mx-auto min-h-[75vh] lg:min-h-[auto]">
       <div className="row items-center w-full">
         <div className="col w-full md:w-6/12">
           <ScrollReveal config={anim.animate5}>
@@ -136,9 +136,9 @@ export default function Hero() {
             <button className="btn is-primary mt-4">Learn more</button>
           </ScrollReveal>
         </div>
-        <div className="col w-6/12 hidden md:block h-96">
-          <Particles canvasClassName="w-12/12 h-12/12 absolute top-0" options={particle} />
-          <video className="filter w-full h-full" muted autoPlay loop src={herovid} />
+        <div className="col w-6/12 hidden md:block">
+          <Particles canvasClassName="w-full h-full absolute top-0" options={particle} />
+          <img className="relative w-10/12 mx-auto" src={herovid} alt="" />
         </div>
       </div>
     </section>
