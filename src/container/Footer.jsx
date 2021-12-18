@@ -119,7 +119,7 @@ export default function Footer() {
               type="email"
               className="form-control text-sm mt-2"
               name="email"
-              placeholder="hello@quellxcode.com"
+              placeholder="hello@jararmalik.com"
             />
           </form>
           <button className="btn is-primary mt-2">Subscribe</button>
