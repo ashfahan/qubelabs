@@ -2,6 +2,8 @@ import React from "react";
 
 import herovid from "../assets/herovid.mp4";
 import Particles from "react-tsparticles";
+import { anim, ScrollReveal } from "../container/ScrollReveal";
+
 const particle = {
   particles: {
     number: {
@@ -112,30 +114,31 @@ const particle = {
   },
   retina_detect: true,
 };
+
 export default function Hero() {
   return (
     <section className="flex items-center py-20 md:w-11/12 w-[95%] mx-auto min-h-[75vh] lg:min-h-[auto]">
       <div className="row items-center w-full">
         <div className="col w-full md:w-6/12">
-          <h1 className="text-4xl font-bold leading-[50px]">
-            <span className="text-primary">Qube</span> partners with high-potential blockchain
-            projects.
-          </h1>
-          <p className="mt-6 text-sm">
-            Professional investors, blockchain strategists and social-media influencers, investing
-            in a decentralized future.
-          </p>
-          <button className="btn is-primary mt-4">Learn more</button>
+          <ScrollReveal config={anim.animate5}>
+            <h1 className="text-4xl font-bold leading-[50px]">
+              <span className="text-primary">Qube</span> partners with high-potential blockchain
+              projects.
+            </h1>
+          </ScrollReveal>
+          <ScrollReveal config={anim.animate7}>
+            <p className="mt-6 text-sm">
+              Professional investors, blockchain strategists and social-media influencers, investing
+              in a decentralized future.
+            </p>
+          </ScrollReveal>
+          <ScrollReveal config={anim.animate11}>
+            <button className="btn is-primary mt-4">Learn more</button>
+          </ScrollReveal>
         </div>
         <div className="col w-6/12 hidden md:block h-96">
           <Particles canvasClassName="w-12/12 h-12/12 absolute top-0" options={particle} />
-          <video
-            className="filter w-full h-full"
-            muted
-            autoPlay
-            loop
-            src={herovid}
-          />
+          <video className="filter w-full h-full" muted autoPlay loop src={herovid} />
         </div>
       </div>
     </section>
