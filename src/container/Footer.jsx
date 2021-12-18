@@ -20,7 +20,7 @@ export default function Footer() {
             <div className="form-group">
               <input
                 type="text"
-                className="form-control"
+                className="form-control text-sm"
                 name="name"
                 required=""
                 placeholder="Name"
@@ -29,7 +29,7 @@ export default function Footer() {
             <div className="form-group">
               <input
                 type="email"
-                className="form-control"
+                className="form-control text-sm"
                 name="email"
                 required=""
                 placeholder="Email"
@@ -38,7 +38,7 @@ export default function Footer() {
 
             <div className="form-group">
               <textarea
-                className="form-control"
+                className="form-control text-sm"
                 name="message"
                 placeholder="Message"
                 rows="4"
@@ -117,7 +117,7 @@ export default function Footer() {
           <form action="#">
             <input
               type="email"
-              className="form-control mt-2"
+              className="form-control text-sm mt-2"
               name="email"
               placeholder="hello@quellxcode.com"
             />
