@@ -39,20 +39,12 @@ header {
 }
 
 .form-control {
-  padding: 8px 18px;
-
   background: #f2f4f8;
   border: 1px solid #f2f4f8;
-  color: #fff;
 
   &::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #878787;
-    font-size: 10px !important;
-    opacity: 1; /* Firefox */
-
-    font-size: 12px;
-    /* font-family: Montserrat-Medium; */
+    opacity: 1;
   }
 }
 
