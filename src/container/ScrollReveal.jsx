@@ -73,7 +73,7 @@ export const ScrollReveal = ({ children, className, config = baseConfig }) => {
   const sectionRef = useRef(null);
   useEffect(() => {
     if (sectionRef.current) scrollReveal().reveal(sectionRef.current, config);
-  }, []);
+  }, [config]);
 
   console.log(children);
 

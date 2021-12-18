@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, Collapse } from "reactstrap";
+import { CardBody, Collapse } from "reactstrap";
 import PropTypes from "prop-types";
 
 export class Accordion extends React.Component {

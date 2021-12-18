@@ -1,6 +1,5 @@
 import React from "react";
 
-import boxs from "../assets/ast/boxs.png";
 import car1 from "../assets/ast/car1.png";
 import car2 from "../assets/ast/car2.png";
 import car3 from "../assets/ast/car3.png";
