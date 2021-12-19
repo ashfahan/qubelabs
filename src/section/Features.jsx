@@ -1,18 +1,18 @@
 import React from "react";
 
-import workbg from "../assets/work-bg.png";
+import featuresbg from "../assets/features-cube.png";
 import asthands from "../assets/ast/hands.png";
 import astmessage from "../assets/ast/message.png";
 import astsettings from "../assets/ast/settings.png";
 import ScrollReveal, { anim } from "../container/ScrollReveal";
 
-export default function Work() {
+export default function Features() {
   return (
     <section className="mt-24 overflow-x-clip">
       <div className="md:w-11/12 w-[95%] mx-auto relative">
         <img
-          className="work-transition absolute top-0 right-10 -z-10 w-96 transform"
-          src={workbg}
+          className="features-transition absolute top-0 right-10 -z-10 w-96 transform"
+          src={featuresbg}
           alt=""
         />
         <div className="pt-36">
