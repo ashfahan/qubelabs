@@ -149,7 +149,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="mt-12">
-        <p className="text-xs font-normal">Website designed by © 2020—2021, QuellxCode </p>
+        <p className="text-xs font-normal">Website designed by © 2020—2021, jararmalik </p>
       </div>
     </footer>
   );
