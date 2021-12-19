@@ -11,8 +11,8 @@ export default function Header() {
   useEffect(() => {
     var header = document.querySelector("header");
     var headroom = new Headroom(header, {
-      offset: 110,
-      classes: { notTop: "bg-white" },
+      offset: 80,
+      classes: { notTop: "bg-white bg-opacity-60 backdrop-blur-sm shadow-sm" },
     });
     headroom.init();
   }, []);
