@@ -8,7 +8,7 @@ import ScrollReveal, { anim } from "../container/ScrollReveal";
 
 export default function Features() {
   return (
-    <section className="mt-24 overflow-x-clip">
+    <section id="features" className="mt-24 overflow-x-clip">
       <div className="md:w-11/12 w-[95%] mx-auto relative">
         <img
           className="features-transition absolute top-0 right-10 -z-10 w-96 transform"

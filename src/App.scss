@@ -1,5 +1,7 @@
+:root,
 body {
   background-color: #f6f7f9 !important;
+  scroll-behavior: smooth;
 }
 
 .accordion > .card:not(:last-of-type) {

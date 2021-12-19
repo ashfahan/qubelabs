@@ -11,6 +11,7 @@ export default function Header() {
   useEffect(() => {
     var header = document.querySelector("header");
     var headroom = new Headroom(header, {
+      offset: 110,
       classes: { notTop: "bg-white" },
     });
     headroom.init();
@@ -21,7 +22,7 @@ export default function Header() {
   return (
     <header className="container-lg sticky top-0 z-40 rounded-b-lg">
       <Navbar expand="lg" light id="navbar">
-        <NavbarBrand href="/">
+        <NavbarBrand href="#hero">
           <img alt="..." className="w-44" src={logo} />
         </NavbarBrand>
         <NavbarToggler onClick={() => setOpen(!open)} />
@@ -30,7 +31,7 @@ export default function Header() {
             <NavItem>
               <NavLink
                 className="inline-block text-primary-dark text-center px-4 font-medium"
-                href="#Features"
+                href="#features"
               >
                 Features
               </NavLink>
@@ -38,7 +39,7 @@ export default function Header() {
             <NavItem>
               <NavLink
                 className="inline-block text-primary-dark text-center px-4 font-medium"
-                href="#stage"
+                href="#staking"
               >
                 Staking
               </NavLink>
@@ -54,7 +55,7 @@ export default function Header() {
             <NavItem>
               <NavLink
                 className="inline-block text-primary-dark text-center px-4 font-medium"
-                href="#staking"
+                href="#faq"
               >
                 FAQs
               </NavLink>

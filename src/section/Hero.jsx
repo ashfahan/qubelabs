@@ -117,7 +117,10 @@ const particle = {
 
 export default function Hero() {
   return (
-    <section className="flex items-center py-8 md:w-11/12 w-[95%] mx-auto min-h-[75vh] lg:min-h-[auto]">
+    <section
+      id="hero"
+      className="flex items-center py-8 md:w-11/12 w-[95%] mx-auto min-h-[75vh] lg:min-h-[auto]"
+    >
       <div className="row items-center w-full">
         <div className="col w-full md:w-6/12">
           <ScrollReveal config={anim.animate5}>
