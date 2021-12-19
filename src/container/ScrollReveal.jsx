@@ -1,7 +1,11 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect, cloneElement } from "react";
 import scrollReveal from "scrollreveal";
 
-const baseConfig = { distance: "70px", delay: 0, easing: "cubic-bezier(0.68, -0.55, 0.25, 01.55)" };
+const baseConfig = {
+  distance: "70px",
+  delay: 0,
+  easing: "cubic-bezier(0.68, -0.55, 0.25, 01.55)",
+};
 
 var scrollRevealRight1 = { duration: 800, origin: "right" };
 var scrollRevealRight2 = { duration: 1000, origin: "right" };
@@ -41,52 +45,57 @@ var fadeInFast = {
 };
 
 export const anim = {
-  animate1: { ...baseConfig, ...five },
-  animate2: { ...baseConfig, ...six },
-  animate3: { ...baseConfig, ...seven },
-  animate4: { ...baseConfig, ...eight },
-  animate5: { ...baseConfig, ...nine },
-  animate6: { ...baseConfig, ...ten },
-  animate7: { ...baseConfig, ...eleven },
-  animate8: { ...baseConfig, ...twelve },
-  animate9: { ...baseConfig, ...thirteen },
-  animate10: { ...baseConfig, ...fourteen },
-  animate11: { ...baseConfig, ...fifteen },
-  animate12: { ...baseConfig, ...sixteen },
-  animate13: { ...baseConfig, ...seventeen },
-  animate14: { ...baseConfig, ...eighteen },
-  animate15: { ...baseConfig, ...nineteen },
+  animate1: five,
+  animate2: six,
+  animate3: seven,
+  animate4: eight,
+  animate5: nine,
+  animate6: ten,
+  animate7: eleven,
+  animate8: twelve,
+  animate9: thirteen,
+  animate10: fourteen,
+  animate11: fifteen,
+  animate12: sixteen,
+  animate13: seventeen,
+  animate14: eighteen,
+  animate15: nineteen,
 
-  fadeIn: { ...baseConfig, ...fadeIn },
-  fadeInFast: { ...baseConfig, ...fadeInFast },
-  rightToLeft1: { ...baseConfig, ...scrollRevealRight1 },
-  rightToLeft2: { ...baseConfig, ...scrollRevealRight2 },
-  rightToLeft3: { ...baseConfig, ...scrollRevealRight3 },
-  rightToLeft4: { ...baseConfig, ...scrollRevealRight4 },
-  rightToLeft5: { ...baseConfig, ...scrollRevealRight5 },
-  leftToRight1: { ...baseConfig, ...scrollRevealLeft1 },
-  leftToRight2: { ...baseConfig, ...scrollRevealLeft2 },
-  leftToRight3: { ...baseConfig, ...scrollRevealLeft3 },
+  fadeIn: fadeIn,
+  fadeInFast: fadeInFast,
+  rightToLeft1: scrollRevealRight1,
+  rightToLeft2: scrollRevealRight2,
+  rightToLeft3: scrollRevealRight3,
+  rightToLeft4: scrollRevealRight4,
+  rightToLeft5: scrollRevealRight5,
+  leftToRight1: scrollRevealLeft1,
+  leftToRight2: scrollRevealLeft2,
+  leftToRight3: scrollRevealLeft3,
 };
 
-export const ScrollReveal = ({ children, className, config = baseConfig }) => {
+const sr = scrollReveal(baseConfig);
+
+export const ScrollReveal = ({ children, className, config }) => {
   const sectionRef = useRef(null);
   useEffect(() => {
-    setTimeout(() => sectionRef.current && scrollReveal().reveal(sectionRef.current, config));
+    setTimeout(() => sectionRef.current && sr.reveal(sectionRef.current, config));
   }, [config]);
 
-  if (Array.isArray(children))
-    return children?.map(children, (child) => {
-      return React.cloneElement(child, {
+  if (children) {
+    if (Array.isArray(children)) {
+      return children?.map(children, (child) =>
+        cloneElement(child, {
+          ref: sectionRef,
+          className: `scroll-section ${child.props.className} ${className}`,
+        })
+      );
+    } else {
+      return cloneElement(children, {
         ref: sectionRef,
-        className: `scroll-section ${child.props.className} ${className}`,
+        className: `scroll-section ${children.props.className} ${className}`,
       });
-    });
-  else
-    return React.cloneElement(children, {
-      ref: sectionRef,
-      className: `scroll-section ${children.props.className} ${className}`,
-    });
+    }
+  }
 };
 
 export default ScrollReveal;
