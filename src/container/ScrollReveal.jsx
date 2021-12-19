@@ -72,7 +72,7 @@ export const anim = {
 export const ScrollReveal = ({ children, className, config = baseConfig }) => {
   const sectionRef = useRef(null);
   useEffect(() => {
-    if (sectionRef.current) scrollReveal().reveal(sectionRef.current, config);
+    setTimeout(() => sectionRef.current && scrollReveal().reveal(sectionRef.current, config));
   }, [config]);
 
   if (Array.isArray(children))
