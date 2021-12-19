@@ -63,9 +63,9 @@ export default function Staking() {
               </ScrollReveal>
             </div>
 
-            <div className="row no-gutters">
+            <div className="row no-gutters -ml-1 -mr-1">
               <ScrollReveal config={anim.animate8}>
-                <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
+                <div className="col w-full sm:w-6/12 md:w-3/12 py-1 sm:p-1">
                   <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                     <div className="row no-gutters justify-center">
                       <div className="col w-14 flex items-center bg-white rounded-lg">
@@ -83,7 +83,7 @@ export default function Staking() {
               </ScrollReveal>
 
               <ScrollReveal config={anim.animate8}>
-                <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
+                <div className="col w-full sm:w-6/12 md:w-3/12 py-1 sm:p-1">
                   <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                     <div className="row no-gutters justify-center">
                       <div className="col w-14 flex items-center bg-white rounded-lg">
@@ -101,7 +101,7 @@ export default function Staking() {
               </ScrollReveal>
 
               <ScrollReveal config={anim.animate8}>
-                <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
+                <div className="col w-full sm:w-6/12 md:w-3/12 py-1 sm:p-1">
                   <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                     <div className="row no-gutters justify-center">
                       <div className="col w-14 flex items-center bg-white rounded-lg">
@@ -119,7 +119,7 @@ export default function Staking() {
               </ScrollReveal>
 
               <ScrollReveal config={anim.animate8}>
-                <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
+                <div className="col w-full sm:w-6/12 md:w-3/12 py-1 sm:p-1">
                   <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                     <div className="row no-gutters justify-center">
                       <div className="col w-14 flex items-center bg-white rounded-lg">
@@ -136,7 +136,7 @@ export default function Staking() {
               </ScrollReveal>
 
               <ScrollReveal config={anim.animate8}>
-                <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
+                <div className="col w-full sm:w-6/12 md:w-3/12 py-1 sm:p-1">
                   <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                     <div className="row no-gutters justify-center">
                       <div className="col w-14 flex items-center bg-white rounded-lg">
@@ -154,7 +154,7 @@ export default function Staking() {
               </ScrollReveal>
 
               <ScrollReveal config={anim.animate8}>
-                <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
+                <div className="col w-full sm:w-6/12 md:w-3/12 py-1 sm:p-1">
                   <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                     <div className="row no-gutters justify-center">
                       <div className="col w-14 flex items-center bg-white rounded-lg">
@@ -172,7 +172,7 @@ export default function Staking() {
               </ScrollReveal>
 
               <ScrollReveal config={anim.animate8}>
-                <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
+                <div className="col w-full sm:w-6/12 md:w-3/12 py-1 sm:p-1">
                   <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                     <div className="row no-gutters justify-center">
                       <div className="col w-14 flex items-center bg-white rounded-lg">
@@ -190,7 +190,7 @@ export default function Staking() {
               </ScrollReveal>
 
               <ScrollReveal config={anim.animate8}>
-                <div className="col w-full sm:w-4/12 md:w-3/12 py-1 md:p-1">
+                <div className="col w-full sm:w-6/12 md:w-3/12 py-1 sm:p-1">
                   <div className="card w-full h-full card-body text-center rounded-lg p-3 bg-[#F8FAFD] border-blue-100 hover:border-blue-300 hover:shadow-lg transition-colors transition-colors border-2">
                     <div className="row no-gutters justify-center">
                       <div className="col w-14 flex items-center bg-white rounded-lg">
