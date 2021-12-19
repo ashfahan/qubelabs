@@ -5,7 +5,7 @@ import ScrollReveal, { anim } from "./ScrollReveal";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-200 md:w-11/12 w-[95%] mx-auto mt-24 rounded-t-lg px-14 pb-14 pt-20 font-medium">
+    <footer className="bg-slate-200 bg-opacity-60 backdrop-blur-sm md:w-11/12 w-[95%] mx-auto mt-24 rounded-t-lg px-14 pb-14 pt-20 font-medium">
       <div className="row mb-4">
         <div className="col w-full md:w-6/12">
           <ScrollReveal config={anim.animate5}>
