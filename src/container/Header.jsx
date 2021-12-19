@@ -20,7 +20,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="container-lg sticky top-0 z-40 rounded-b-lg">
+    <header className="container-lg sticky top-0 z-40 rounded-b-lg duration-[400ms] transition-colors ease-in-out">
       <Navbar expand="lg" light id="navbar">
         <NavbarBrand href="#hero">
           <img alt="..." className="w-44" src={logo} />
