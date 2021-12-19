@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header className="container-lg sticky top-0 z-40 rounded-b-lg duration-[400ms] transition-colors ease-in-out">
       <Navbar expand="lg" light id="navbar">
-        <NavbarBrand href="#hero">
+        <NavbarBrand href="#top">
           <img alt="..." className="w-44" src={logo} />
         </NavbarBrand>
         <NavbarToggler onClick={() => setOpen(!open)} />

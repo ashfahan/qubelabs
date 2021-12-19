@@ -2,7 +2,7 @@ import Layout from "./Layout";
 
 function App() {
   return (
-    <div className="App font-Montserrat">
+    <div id="top" className="App font-Montserrat">
       <Layout />
     </div>
   );
