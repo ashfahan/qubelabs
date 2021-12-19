@@ -82,7 +82,7 @@ export default function Footer() {
             </p>
           </ScrollReveal>
         </div>
-        <div className="col w-full  lg:w-3/12 md:w-3/12">
+        <div className="col w-6/12 lg:w-3/12 md:w-3/12">
           <div className="text-sm font-bold md:font-medium mt-6">Navigation</div>
           <ul className="mt-4">
             <li>
@@ -127,7 +127,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="col w-full lg:w-3/12 md:w-2/12">
+        <div className="col w-6/12 lg:w-3/12 md:w-2/12">
           <div className="text-sm font-bold md:font-medium mt-6">Contacts</div>
           <p className="mt-4 text-xs text-primary-dark no-underline inline-block leading-5">
             <span className="block"> One Ferry Building, Suite 255.</span>
