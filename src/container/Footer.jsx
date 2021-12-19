@@ -71,7 +71,7 @@ export default function Footer() {
       <div className="row">
         <div className="col w-full lg:w-3/12 md:w-3/12">
           <ScrollReveal config={anim.animate5}>
-            <a href="/" className="w-full max-w-[150px] inline-block">
+            <a href="#top" className="w-full max-w-[150px] inline-block">
               <img src={logo} alt="logo" />
             </a>
           </ScrollReveal>
@@ -88,7 +88,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="/"
+                href="#top"
               >
                 Home
               </a>
@@ -96,7 +96,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="/"
+                href="#features"
               >
                 Features
               </a>
@@ -104,7 +104,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="/"
+                href="#staking"
               >
                 Staking
               </a>
@@ -112,7 +112,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="/"
+                href="#portfolio"
               >
                 Portfolio
               </a>
@@ -120,7 +120,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-xs text-primary-dark no-underline inline-block hover:text-secondary"
-                href="/"
+                href="#faq"
               >
                 FAQs
               </a>
