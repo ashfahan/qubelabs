@@ -75,8 +75,6 @@ export const ScrollReveal = ({ children, className, config = baseConfig }) => {
     if (sectionRef.current) scrollReveal().reveal(sectionRef.current, config);
   }, [config]);
 
-  console.log(children);
-
   if (Array.isArray(children))
     return children?.map(children, (child) => {
       return React.cloneElement(child, {
