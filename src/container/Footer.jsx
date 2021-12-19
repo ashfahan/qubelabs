@@ -129,9 +129,7 @@ export default function Footer() {
           <p className="mt-4 text-xs text-primary-dark no-underline inline-block leading-5">
             <span className="block"> One Ferry Building, Suite 255.</span>
             <span className="block"> San Francisco, CA 94111</span>
-            <span className="block text-base">
-              +1 (415) 677-5340
-            </span>
+            <span className="block text-base">+1 (415) 677-5340</span>
           </p>
         </div>
         <div className="col w-full lg:w-3/12 md:w-4/12">

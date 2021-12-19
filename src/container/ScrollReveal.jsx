@@ -89,10 +89,6 @@ export const ScrollReveal = ({ children, className, config = baseConfig }) => {
       ref: sectionRef,
       className: `scroll-section ${children.props.className} ${className}`,
     });
-
-  // <div ref={sectionRef} className={`scroll-section ${className}`}>
-  //   {children}
-  // </div>
 };
 
 export default ScrollReveal;
