@@ -56,9 +56,9 @@ const AccordionHeader = ({ children, onClick, className, isOpen }) => (
   >
     {children}
 
-    <div className='ml-3'>
+    <div className='ml-auto'>
       <svg
-        className="ml-auto text-primary"
+        className="ml-3 text-primary"
         xmlns="http://www.w3.org/2000/svg"
         width="10"
         height="16"
