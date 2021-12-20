@@ -13,7 +13,7 @@ import { anim, ScrollReveal } from "../container/ScrollReveal";
 export default function Staking() {
   return (
     <section id="staking" className="mt-24 overflow-x-clip">
-      <div className="md:w-11/12 w-[95%] mx-auto relative">
+      <div className="container-xxl p-0 relative">
         <svg
           className="absolute top-0 left-10 -z-10 w-96 transform -translate-x-2/4"
           xmlns="http://www.w3.org/2000/svg"

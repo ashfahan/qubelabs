@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer
       id="contact"
-      className="bg-slate-200 bg-opacity-60 backdrop-blur-sm md:w-[95%] mx-auto mt-24 rounded-t-lg  px-4 pb-4 pt-16 md:px-14 md:pb-14 md:pt-20 font-medium "
+      className="bg-slate-200 bg-opacity-60 backdrop-blur-sm container-xxl p-0 mt-24 rounded-t-lg px-4 pb-4 pt-16 md:px-14 md:pb-14 md:pt-20 font-medium "
     >
       <div className="row mb-4">
         <div className="col w-full md:w-6/12">

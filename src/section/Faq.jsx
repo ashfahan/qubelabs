@@ -5,7 +5,7 @@ import ScrollReveal, { anim } from "../container/ScrollReveal";
 export default function Faq() {
   return (
     <section className="mt-24 overflow-x-clip" id="faq">
-      <div className="md:w-11/12 w-[95%] mx-auto relative">
+      <div className="container-xxl p-0 relative">
         <div className="pt-36">
           <div className="rounded-2xl bg-slate-200 bg-opacity-60 backdrop-blur-sm px-4 pb-4 pt-16 md:p-16">
             <div className="text-center">

@@ -117,9 +117,9 @@ const particle = {
 
 export default function Hero() {
   return (
-    <section className="flex items-center py-8 md:w-11/12 w-[95%] mx-auto min-h-[75vh] lg:min-h-[auto]">
+    <section className="flex items-center py-8 container-xxl p-0 min-h-[75vh] lg:min-h-[auto]">
       <div className="row items-center w-full">
-        <div className="col w-full md:w-6/12">
+        <div className="col relative w-full md:w-6/12">
           <ScrollReveal config={anim.animate5}>
             <h1 className="text-6xl font-bold leading-[1.2]">
               <span className="text-primary">Qube</span> partners with high-potential blockchain
@@ -136,7 +136,7 @@ export default function Hero() {
             <button className="btn is-primary mt-4">Learn more</button>
           </ScrollReveal>
         </div>
-        <div className="col w-6/12 hidden md:block">
+        <div className="col relative w-6/12 hidden md:block">
           <Particles canvasClassName="w-full h-full absolute top-0" options={particle} />
           <img className="relative w-10/12 mx-auto" src={herovid} alt="" />
         </div>
