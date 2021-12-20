@@ -10,7 +10,7 @@ import ScrollReveal, { anim } from "../container/ScrollReveal";
 export default function Portfolio() {
   return (
     <section className="mt-24 overflow-x-clip" id="portfolio">
-      <div className="container-xxl p-0 relative">
+      <div className="container-xxl relative">
         <img
           className="absolute top-0 right-10 -z-10 w-auto transform translate-x-2/4 translate-y-96"
           src={Group}

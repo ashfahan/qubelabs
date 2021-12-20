@@ -9,7 +9,7 @@ import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } f
 
 export default function Header() {
   useEffect(() => {
-    var header = document.querySelector("header");
+    var header = document.querySelector("#navbar");
     var headroom = new Headroom(header, {
       offset: 80,
       classes: { notTop: "bg-white bg-opacity-60 backdrop-blur-sm shadow-sm" },
@@ -20,8 +20,13 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="container-xxl p-0 sticky top-0 z-40 rounded-b-lg duration-[400ms] transition-colors ease-in-out p-0">
-      <Navbar expand="lg" light id="navbar">
+    <header className="container-xxl sticky top-0 z-40">
+      <Navbar
+        className="rounded-b-lg duration-[400ms] transition-colors ease-in-out p-0"
+        expand="lg"
+        light
+        id="navbar"
+      >
         <NavbarBrand href="#top">
           <img alt="..." className="w-44" src={logo} />
         </NavbarBrand>
