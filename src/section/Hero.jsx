@@ -121,7 +121,7 @@ export default function Hero() {
       <div className="row items-center w-full">
         <div className="col w-full md:w-6/12">
           <ScrollReveal config={anim.animate5}>
-            <h1 className="text-4xl font-bold leading-[50px]">
+            <h1 className="text-6xl font-bold leading-[1.2]">
               <span className="text-primary">Qube</span> partners with high-potential blockchain
               projects.
             </h1>
