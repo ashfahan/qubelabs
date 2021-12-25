@@ -11,12 +11,8 @@ export default function Portfolio() {
   return (
     <section className="mt-24 overflow-x-clip" id="portfolio">
       <div className="container-xxl relative">
-        <img
-          className="absolute top-0 right-10 -z-10 w-auto transform translate-x-2/4 translate-y-96"
-          src={Group}
-          alt="..."
-        />
-        <div className="absolute top-0 right-10 -z-10 w-auto transform translate-x-2/4 translate-y-96">
+        <div className="absolute bottom-0 right-10 -z-10 w- transform translate-x-2/4 translate-y-96">
+          <img className="absolute" src={Group} alt="..." />
           <img className="animate-spin spin-fan" src={fan} alt="..." />
         </div>
 
